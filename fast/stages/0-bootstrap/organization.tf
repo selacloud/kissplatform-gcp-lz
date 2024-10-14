@@ -229,7 +229,7 @@ module "organization" {
   factories_config = {
     custom_roles = var.factories_config.custom_roles
     org_policies = (
-      var.bootstrap_user != null ? var.factories_config.org_policy : null
+      var.bootstrap_user != null ? null : var.factories_config.org_policy
     )
   }
   logging_sinks = {
