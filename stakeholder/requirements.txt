@@ -1,0 +1,9 @@
+streamlit==1.36.0
+gensim>=4.3.2
+numpy==1.26.4
+reportlab==3.6.13
+scipy>=1.10.1
+anytree==2.12.1
+streamlit_markmap==1.0.1
+google-cloud-aiplatform
+google-cloud-logging
